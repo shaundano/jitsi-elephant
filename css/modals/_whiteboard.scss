@@ -1,7 +1,20 @@
 .whiteboard {
-
     .excalidraw-wrapper {
         height: 100vh;
         width: 100vw;
     }
+}
+
+.whiteboard .excalidraw,
+.whiteboard-container .excalidraw,
+.excalidraw-wrapper .excalidraw {
+    --color-primary: #e63946 !important;
+    --color-primary-darker: #d62828 !important;
+    --color-primary-darkest: #c1121f !important;
+    --color-primary-light: #fee2e2 !important;
+    --color-primary-light-darker: #fecaca !important;
+    --color-primary-hover: #dc2626 !important;
+    --color-brand-hover: #dc2626 !important;
+    --color-brand-active: #b91c1c !important;
+    --color-selection: #e63946 !important;
 }
